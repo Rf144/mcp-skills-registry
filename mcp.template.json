@@ -1,8 +1,8 @@
 {
   "mcpServers": {
     "filesystem": {
-      "command": "mcp-server-filesystem",
-      "args": ["C:/Users/YOUR_USERNAME/OneDrive/桌面"]
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "YOUR_DESKTOP_PATH"]
     },
     "github": {
       "command": "npx",
@@ -12,8 +12,8 @@
       }
     },
     "puppeteer": {
-      "command": "mcp-server-puppeteer",
-      "args": []
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-puppeteer"]
     },
     "fetch": {
       "command": "uvx",
