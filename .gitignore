@@ -1,0 +1,7 @@
+# 含有真實 API 金鑰的 MCP 設定檔（請勿提交）
+.mcp.json
+
+# Claude Code 本地資料
+.claude/sessions/
+.claude/telemetry/
+.claude/.credentials.json
