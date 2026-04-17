@@ -33,6 +33,10 @@
         "Authorization": "Bearer YOUR_VERCEL_TOKEN"
       }
     },
+    "supabase": {
+      "command": "npx",
+      "args": ["-y", "@supabase/mcp-server-supabase@latest", "--access-token", "YOUR_SUPABASE_ACCESS_TOKEN"]
+    },
     "n8n-haha": {
       "type": "stdio",
       "command": "npx",
