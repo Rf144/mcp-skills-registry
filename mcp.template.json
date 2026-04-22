@@ -51,9 +51,9 @@
     },
     "airtable": {
       "command": "npx",
-      "args": ["-y", "@airtable/mcp-server"],
+      "args": ["-y", "airtable-mcp-server"],
       "env": {
-        "AIRTABLE_TOKEN": "YOUR_AIRTABLE_TOKEN"
+        "AIRTABLE_API_KEY": "YOUR_AIRTABLE_API_KEY"
       }
     }
   }
