@@ -12,7 +12,7 @@ Claude Code 環境規範的統一參考庫，整理所有本機 MCP 伺服器設
 
 ## 包含內容
 
-### MCP 伺服器（8 個）
+### MCP 伺服器（9 個）
 
 | 名稱 | 功能 |
 |------|------|
@@ -24,6 +24,7 @@ Claude Code 環境規範的統一參考庫，整理所有本機 MCP 伺服器設
 | vercel | Vercel 部署管理、日誌查閱 |
 | supabase | Supabase 資料庫查詢、schema 管理、SQL 執行 |
 | n8n-haha-mcp | n8n workflow 建立/驗證/執行 |
+| airtable | Airtable 資料庫讀寫、記錄管理 |
 
 ### Skills（25 個）
 
@@ -59,4 +60,4 @@ Claude Code 環境規範的統一參考庫，整理所有本機 MCP 伺服器設
 
 ---
 
-*最後更新：2026 年 4 月 18 日*
+*最後更新：2026 年 4 月 22 日*
