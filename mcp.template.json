@@ -48,6 +48,13 @@
         "N8N_API_URL": "YOUR_N8N_API_URL",
         "N8N_API_KEY": "YOUR_N8N_API_KEY"
       }
+    },
+    "airtable": {
+      "command": "npx",
+      "args": ["-y", "@airtable/mcp-server"],
+      "env": {
+        "AIRTABLE_TOKEN": "YOUR_AIRTABLE_TOKEN"
+      }
     }
   }
 }
